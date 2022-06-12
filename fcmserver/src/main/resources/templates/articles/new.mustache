@@ -1,0 +1,24 @@
+{{>layouts/header}}
+<div class="tmp">
+    <h1>Article 등록</h1>
+    <hr>
+    <p>articles/new.mustache</p>
+</div>
+<!-- Form 태그, 아래 두 속성을 추가!
+  method: HTTP 방식을 설정(GET/POST/...)
+  action: 데이터를 보낼 url 주소지
+-->
+<form class="container" method="post" action="/articles">
+    <div class="form-group">
+        <label for="title">제목</label>
+        <!-- name="title" 추가, DTO의 필드명과 일치해야 함! -->
+        <input name="title" type="text" class="form-control" id="article-title" placeholder="제목을 입력하세요">
+    </div>
+    <div class="form-group">
+        <label for="content">내용</label>
+        <!-- name="content" 추가, DTO의 필드명과 일치해야 함! -->
+        <textarea name="content" class="form-control" id="article-content" placeholder="내용을 입력하세요" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">제출</button>
+</form>
+{{>layouts/footer}}
