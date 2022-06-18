@@ -2,7 +2,7 @@
 새로운 플랫폼, 프레임워크, 데이터베이스 등을 공부하며 작성한 코드를 기록합니다.
 
 ### NodejsCRUD
-Node.js, Express, Mongoose로 MongoDB CRUD 기능을 구현
+Node.js, Express, Mongoose로 MongoDB CRUD 기능 구현
 
 ### ElasticsearchAPI
 Spring Boot로 Elasticsearch 데이터를 검색하는 API 서버 구현
@@ -15,13 +15,12 @@ Firebase Cloud Messaging 백엔드로 메시지 요청을 보내는 서버(Sprin
 ### FCM
 Firebase Cloud Messaging에서 전송된 알림 메시지를 받는 클라이언트 앱(Android)
 
+### MonitoringService
+Windows Service로 주기적으로 ElasticSearch 데이터 검색하고, FCM 푸시 알림 보내기
 
+### velog 정리 글
 - [Firebase Cloud Messaging?](https://velog.io/@emily2307/Firebase-Cloud-Messaging)
-    - [x] FCM 아키텍처
-    - [x] 토큰 등록 과정 / 등록 토큰 관리
-    - [x] 메시지 유형
-    - [x] FCM 서버 옵션
-    - [x] 장애 상황 관련
+    - FCM 아키텍처 / 토큰 등록 과정 / 등록 토큰 관리 / 메시지 유형 / FCM 서버 옵션 / 장애 상황
 - [Elasticsearch란?](https://velog.io/@emily2307/ElasticSearch%EB%9E%80)
 - [ELK Stack?](https://velog.io/@emily2307/ELK-Stack)
 - [MongoDB - Elasticsearch 동기화 (using Monstache)](https://velog.io/@emily2307/MongoDB-Elasticsearch-%EB%8F%99%EA%B8%B0%ED%99%94-using-Monstache)
